@@ -1,0 +1,78 @@
+body {
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat:repeat-x;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(225, 100%, 94%)
+    
+}
+
+.box {
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: white;
+    min-width: 450px;
+}
+
+.banner {
+   margin-left: -12px;
+   border-top-left-radius:  15px;
+   border-top-right-radius: 15px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.desc {
+    text-align: center;
+    color: #acacac;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.price{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btn {
+    width: 80%;
+    margin-left: 10%;
+    background-color: hsl(239 74% 46%);
+    border-color: hsl(239 74% 46%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.btn-light {
+    background-color: transparent;
+    border: none;
+    color: #acacac;;
+}
+
+a {
+    color: hsl(239 74% 46%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
